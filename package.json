@@ -1,0 +1,71 @@
+{
+  "name": "galwan-backoffice",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve && link-module-alias",
+    "build": "vue-cli-service build",
+    "start": "node server.js",
+    "lint": "vue-cli-service lint",
+    "postinstall": "link-module-alias"
+  },
+  "_moduleAliases": {
+    "~src": "./src",
+    "$components": "./src/components",
+    "$middlewares": "./src/middlewares",
+    "$model": "./src/model",
+    "$pages": "./src/pages",
+    "$services": "./src/services",
+    "$assets": "./src/assets",
+    "$business": "./src/business"
+  },
+  "dependencies": {
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "axios": "^0.19.2",
+    "connect-history-api-fallback": "^1.6.0",
+    "core-js": "^3.6.4",
+    "date-fns": "^2.25.0",
+    "express": "^4.17.1",
+    "financejs": "^4.1.0",
+    "link-module-alias": "^1.2.0",
+    "lodash": "^4.17.20",
+    "request": "^2.88.2",
+    "serve-static": "^1.14.1",
+    "v-money": "^0.8.1",
+    "vue": "^2.6.11",
+    "vue-input-facade": "^1.3.2",
+    "vue-router": "^3.1.6",
+    "vue-template-compiler": "^2.6.11",
+    "vue-the-mask": "^0.11.1",
+    "vuetify": "^2.5.10",
+    "vuex": "^3.3.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "prettier": "^2.1.2",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.0",
+    "vue-cli-plugin-vuetify": "~2.0.5",
+    "vuetify-loader": "^1.3.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

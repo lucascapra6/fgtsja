@@ -1,0 +1,13 @@
+{
+  "images": [
+    {
+      "id": 120,
+      "url": "galwanAPI/buildings/36/blocks/193/units/923/2020-09-12T14-33-59_unit_1111.png",
+      "resized_url": "https://dinheirow.s3.sa-east-1.amazonaws.com/galwanAPI/buildings/36/blocks/193/units/923/2020-09-12T14-33-59_unit_1111_resized.png?AWSAccessKeyId=AKIAR3NDWZSQZTUATYEL&Expires=1600007698&Signature=cnXA8uO%2BM5oTFc2kwIl%2FXmhfzNg%3D",
+      "block_id": null,
+      "unit_id": 923,
+      "building_id": null
+    }
+  ],
+  "message": "Imagens encontradas com sucesso!"
+}

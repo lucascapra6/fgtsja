@@ -1,0 +1,5 @@
+requestStatus: {
+  401: [{
+    101: 'Token expirado',
+  }]
+}
